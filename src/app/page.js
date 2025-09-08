@@ -59,7 +59,7 @@ import Notes from "./notes"
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <main className="flex flex-col gap-[32px] items-center justify-center min-h-screen">
       <h1>Music Visualizer</h1>
       <Notes />
     </main>
